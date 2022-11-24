@@ -1,0 +1,35 @@
+body
+{
+	margin: 100px auto;
+	background-color:springgreen;
+
+}
+.parent{ width: 500px;
+	 border:3px solid grey;
+	 margin: auto;
+	 text-align:center;
+	 position: relative;
+	 
+	 }
+
+.child{ border-radius:10%;
+	width: 100px;
+	height: 100px;
+	margin: 20px; 
+	}
+
+.one {   background-color: #bae2ef;
+ 	 position: relative;} 
+
+.two {   background-color: royalblue;
+	position: relative;	
+	  }
+ 
+.three {  background-color: sienna;
+	 position: relative;
+	   } 
+
+.four {  background-color: slateblue;
+	 position: relative;
+	   } 
+	

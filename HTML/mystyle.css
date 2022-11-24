@@ -1,0 +1,31 @@
+body{
+background-color:springgreen;
+}
+
+ol{
+background-color:lightgrey;
+color:black;
+color:white;
+border:3px solid black;
+padding:10px;
+
+}
+ul 
+{
+
+background-color:palegreen;
+color:black;
+padding:10px;
+}
+p{
+
+background-color:blue;
+color:white;
+
+}
+
+table,th,td{
+
+border: 1px solid black;
+
+}
