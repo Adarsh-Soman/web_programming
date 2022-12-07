@@ -4,28 +4,26 @@
 </head>
 <body>
 <!--Internal JS code-->
-<p>hiii</p>
 <script>
 
-	var rows=0,number=1,i=0,j=0;
+	var i=0,j=0;
 	var num=parseInt(prompt("Enter the Number"));
 	document.write("<br>");
 	document.write("<h3>Floyd's Triangle</h3>");
-	for(i=1;i<=num; i++)
+	for(i=num;i>0; i--)
 	{
-		for(j=1; j<=i; j++)
-		{ 
-   		   document.write("<font face='arial' size='3'>");
-		   document.write(""+number+"\t</font>");
-		   number++;
+		for(j=i; j>0; j--)
+		{
+   		   document.write("<font face='arial' size='8'>");
+		   document.write("*\t</font>");
+		   //number++;
 		}
-		
+
 		document.write("<br>");
 	}
-	
+
 	document.write("<h3>End of Program</h3>");
 
 </script>
 </body>
 </html>
-
