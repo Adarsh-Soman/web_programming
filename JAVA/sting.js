@@ -20,3 +20,15 @@ function concat() {
   document.getElementById("c").innerHTML="String After concatination is "+s;
 
 }
+
+function math() {
+  var x=parseInt(document.getElementById("num1").value);
+
+  document.getElementById("m").innerHTML="Round of"+x+"is"+Math.round(x)+"<br>";
+  document.getElementById("m").innerHTML="Ceiling of"+x+"is"+Math.ceil(x)+"<br>";
+  document.getElementById("m").innerHTML="Floor of"+x+"is"+Math.floor(x)+"<br>";
+  document.getElementById("m").innerHTML="Trunc of"+x+"is"+Math.trunc(x)+"<br>";
+  document.getElementById("m").innerHTML=("Square of"+x+"is"+Math.pow(x,2)+"<br>";
+  document.getElementById("m").innerHTML=("Square of"+x+"is"+Math.pow(x,2)+"<br>";
+  document.getElementById("m").innerHTML=("Square root of"+x+"is"+Math.sqrt(x)+"<br>";
+}
