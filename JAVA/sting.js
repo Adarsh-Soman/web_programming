@@ -22,13 +22,12 @@ function concat() {
 }
 
 function math() {
-  var x=parseInt(document.getElementById("num1").value);
+  var x=document.getElementById("num1").value;
 
-  document.getElementById("m").innerHTML="Round of"+x+"is"+Math.round(x)+"<br>";
-  document.getElementById("m").innerHTML="Ceiling of"+x+"is"+Math.ceil(x)+"<br>";
-  document.getElementById("m").innerHTML="Floor of"+x+"is"+Math.floor(x)+"<br>";
-  document.getElementById("m").innerHTML="Trunc of"+x+"is"+Math.trunc(x)+"<br>";
-  document.getElementById("m").innerHTML=("Square of"+x+"is"+Math.pow(x,2)+"<br>";
-  document.getElementById("m").innerHTML=("Square of"+x+"is"+Math.pow(x,2)+"<br>";
-  document.getElementById("m").innerHTML=("Square root of"+x+"is"+Math.sqrt(x)+"<br>";
+  document.getElementById("m").innerHTML="Round of "+x+" is "+Math.round(x)+"<br>";
+  document.getElementById("n").innerHTML="Ceiling of "+x+" is "+Math.ceil(x)+"<br>";
+  document.getElementById("o").innerHTML="Floor of "+x+" is "+Math.floor(x)+"<br>";
+  document.getElementById("p").innerHTML="Trunc of "+x+" is "+Math.trunc(x)+"<br>";
+  document.getElementById("q").innerHTML="Square of "+x+" is "+Math.pow(x,2)+"<br>";
+  document.getElementById("r").innerHTML="Square root of "+x+" is "+Math.sqrt(x)+"<br>";
 }
